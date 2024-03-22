@@ -8,7 +8,7 @@ class MarkdownBuilder:
         self.directory = directory
         self.current_directory = os.getcwd()
         # print(self.current_directory)
-        # print(self.check_for_original())
+        # print(self.check_for_original()
 
     def delete_original(self):
         if self.check_for_original():
